@@ -13,7 +13,7 @@ package cm.ubeau.clarks;
 
  import cm.ubeau.clarks.Calculator;
  import cm.ubeau.clarks.ChooseMatrixMethodsInterface;
-import javax.swing.JButton;
+ import javax.swing.JButton;
  import java.awt.Font;
  import java.awt.Color;
  import java.awt.event.ActionListener;
@@ -87,7 +87,7 @@ public class MainCalculatorFrame
           Calculator.app.getContentPane().setBackground(Color.WHITE);
           Calculator.app.add(vbox);
           Calculator.app.setTitle("CALCULATOR");
-          Calculator.app.setSize(500,370);
+          Calculator.app.setSize(560,340);
        
    }
    /*
@@ -257,21 +257,21 @@ public class MainCalculatorFrame
                 {
                    text = textfield.getText();
                            if(!text.equals(""))
-                              textfield.setText(String.format("%g",acosh(Float.parseFloat(text))));
+                              textfield.setText(String.format("%g",cosh(Float.parseFloat(text))));
                          
                  }
                 if(event.getSource()==buttons[3][1])
                  {
                    text = textfield.getText();
                            if(!text.equals(""))
-                              textfield.setText(String.format("%g",asinh(Double.parseDouble(text))));
+                              textfield.setText(String.format("%g",sinh(Double.parseDouble(text))));
                          
                  }
                  if(event.getSource()==buttons[3][2])
                   {
                    text = textfield.getText();
                            if(!text.equals(""))
-                              textfield.setText(String.format("%f",atanh(Double.parseDouble(text))));
+                              textfield.setText(String.format("%f",tanh(Double.parseDouble(text))));
                    }
                  if(event.getSource()==buttons[3][3])
                    {

@@ -59,9 +59,9 @@ public class BinaryInterface
       
       hbox[0].add(textfield);
  
-     button1 = new JButton("  LOAD THE  MAIN  WINDOW                       ");
+     button1 = new JButton("        LOAD THE  MAIN  WINDOW                ");
      button1.setFont(new Font("sans",Font.PLAIN,14));
-     button2 = new JButton("      CLEAR        ");
+     button2 = new JButton("                         CLEAR                              ");
      button2.setFont(new Font("sans",Font.PLAIN,14));
       
       for(int j=1;j<6;j++)
@@ -102,7 +102,7 @@ public class BinaryInterface
            MainCalculatorFrame.vbox.add(hbox[i]);
       
       Calculator.app.setTitle("NUMBER SYSTEM CONVERSIONS");
-      Calculator.app.setSize(450,280);
+      Calculator.app.setSize(525,280);
   }
   /*
    *the following three functions converts decimal  numbers to others  bases
@@ -902,5 +902,4 @@ public class BinaryInterface
                 
         }
     }
-
 

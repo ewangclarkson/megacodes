@@ -11,18 +11,15 @@ package cm.ubeau.clarks;
  */
 //the lines of codes below imports classes and its methods from the java API
 import javax.swing.JFrame;
-import java.awt.Color;
 import cm.ubeau.clarks.MainCalculatorFrame;
 import java.awt.Color;
-import java.awt.Cursor;
-import javax.swing.Icon;
 
 public class Calculator {
 
     /**
-     * @param args the command line arguments
      */
     public static JFrame app;
+
     
     public static void main(String[] args)
     {
@@ -32,6 +29,7 @@ public class Calculator {
       app.setResizable(false);
       app.setBackground(Color.LIGHT_GRAY);
       app.setVisible(true);
+     
     }
     
 }
