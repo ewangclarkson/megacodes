@@ -15,7 +15,7 @@ import static cm.ubeau.clarks.MatrixDMethod.openFile;
  import java.io.File;
  import java.io.IOException;
  import java.io.FileNotFoundException;
-
+ import java.util.Scanner;
 
 /**
  *
